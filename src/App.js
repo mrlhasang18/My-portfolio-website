@@ -11,9 +11,11 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Scrollup from './components/scrollup/Scrollup';
 import Work from './components/work/Work';
+import BlackFireCursor from './components/home/BlackFireCursor.jsx'
 const App = () => {
   return (
     <>
+      <BlackFireCursor />
       <Header />
 
       <main className='main'>
