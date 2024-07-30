@@ -1,0 +1,27 @@
+:root {
+    --header-height: 3rem;
+
+    --hue: 0;
+    --sat: 0%;
+    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --text-color: hsl(var(--hue), var(--sat), 46%);
+    --body-color: hsl(var(--hue), var(--sat), 98%);
+    --container-color: #fff;
+
+    /* Rest of your existing CSS variables... */
+}
+
+body.dark-theme {
+    --title-color: hsl(var(--hue), var(--sat), 92%);
+    --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+    --text-color: hsl(var(--hue), var(--sat), 70%);
+    --body-color: hsl(var(--hue), var(--sat), 15%);
+    --container-color: hsl(var(--hue), var(--sat), 20%);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: .3s;
+}

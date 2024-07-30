@@ -3,7 +3,7 @@ import React from "react";
 const Backend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Developer</h3>
+      <h3 className="skills__title">ML and Datascience</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -11,7 +11,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"> </i>
 
             <div>
-              <h3 className="skills__name">PHP</h3>
+              <h3 className="skills__name">Python</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -20,7 +20,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"> </i>
 
             <div>
-              <h3 className="skills__name">Node JS</h3>
+              <h3 className="skills__name">SQL</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"> </i>
 
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">Scikit-learn</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Backend = () => {
             <i className="bx bx-badge-check"> </i>
 
             <div>
-              <h3 className="skills__name">MySQL</h3>
+              <h3 className="skills__name">EDA</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -49,8 +49,8 @@ const Backend = () => {
             <i className="bx bx-badge-check"> </i>
 
             <div>
-              <h3 className="skills__name">Django</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Streamlit</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>

@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
-import { useState } from "react";
+import DarkModeToggle from './DarkModeToggle';
+
 const Header = () => {
-  /*change background header*/
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
-  });
-  /*toggle menu*/
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".header");
+      if (window.scrollY >= 80) header.classList.add("scroll-header");
+      else header.classList.remove("scroll-header");
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
 
   return (
     <header className="header">
@@ -74,8 +80,8 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                href="#qualification"
+                onClick={() => setActiveNav("#qualification")}
                 className={
                   activeNav === "#portfolio"
                     ? "nav__link active-link"
@@ -105,8 +111,11 @@ const Header = () => {
           ></i>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
+        <div className="nav__right">
+          <DarkModeToggle />
+          <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+            <i className="uil uil-apps"></i>
+          </div>
         </div>
       </nav>
     </header>
