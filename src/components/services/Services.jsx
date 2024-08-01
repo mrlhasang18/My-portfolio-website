@@ -126,8 +126,8 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br />
-              Designer
+              Website <br />
+              Development
             </h3>
           </div>
 
@@ -145,9 +145,9 @@ const Services = () => {
           >
             <div className="services__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Website Developer</h3>
               <p className="services__modal-description">
-                Providing quality visual design works to clients and companies.
+                Providing quality Frontend Web Dev works to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
@@ -168,7 +168,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    I create interactive FrontEnd using ReactJS.
                   </p>
                 </li>
               </ul>

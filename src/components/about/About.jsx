@@ -14,9 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            ML & AI Enthusiast, I have a solid foundational knowledge on Machine
-            Learning models , algorithms and it's types theoritically and
-            practically.And I am on My journey to become an AI Engineer.
+            Namaste, It's me Lhasang Tulku Lama, A sophomore Computer Engineering Student from Nepal.I am really passionate about ML algrithms and Developing Websites.
           </p>
 
           <a download="" href={CV} className="button button--flex">

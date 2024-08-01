@@ -1,7 +1,7 @@
 import Work1 from "../../assests/hamro.png";
-import Work2 from "../../assests/work2.jpg";
+import Work2 from "../../assests/pathfinding.png";
 import Work3 from "../../assests/work3.jpg";
-import Work4 from "../../assests/work4.jpg";
+import Work4 from "../../assests/gymfreak.jpg";
 import Work5 from "../../assests/work5.jpg";
 
 
@@ -16,30 +16,30 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "App movil",
+    title: "Pathfinding Visualizer",
     category: "App",
-    demoLink: "https://app-movil-demo.example.com"
+    demoLink: "https://github.com/mrlhasang18/Pathfinding-Visualizer"
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "Design",
-    demoLink: "https://brand-design-demo.example.com"
+    title: "Apartment Price Prediction",
+    category: "ML",
+    demoLink: "https://github.com/mrlhasang18/Housing-price-prediction"
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
+    title: "Gym Freaks",
     category: "App",
-    demoLink: "https://app-movil-2-demo.example.com"
+    demoLink: "https://github.com/mrlhasang18/Gym-and-Fitness-Management-System"
   },
   {
     id: 5,
     image: Work5,
     title: "Web design",
     category: "Web",
-    demoLink: "https://web-design-demo.example.com"
+    demoLink: "https://lhasanglama.vercel.app/"
   },
 ];
 
@@ -54,7 +54,7 @@ export const projectNav = [
     name: "App",
 },
 {
-    name: "Design",
+    name: "ML",
 },
 ];
 

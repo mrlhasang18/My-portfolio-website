@@ -131,7 +131,9 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">General Member</h3>
-                <span className="qualification__subtitle">Code for Change</span>
+                <span className="qualification__subtitle">
+                  Code For Change
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> Feb 2024 - Present
                 </div>
@@ -153,21 +155,24 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Data Science fellow 24/25
+                  Leadership Fellow
                 </h3>
-                <span className="qualification__subtitle">Code for Nepal</span>
+                <span className="qualification__subtitle">
+                  Aspire Institute
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> Apr 2024 - Present
                 </div>
               </div>
             </div>
-
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Leadership Fellow</h3>
-                <span className="qualification__subtitle">Aspire Institute</span>
+                <h3 className="qualification__title">Data Science Fellow</h3>
+                <span className="qualification__subtitle">
+                  Code For Nepal
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>Apr 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Apr 2024 - Present
                 </div>
               </div>
 
@@ -176,6 +181,27 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">SWE Fellow</h3>
+                <span className="qualification__subtitle">
+                  Headstarter AI
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> Jul 2024 - Sep 2024
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </div>
