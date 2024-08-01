@@ -36,14 +36,14 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://dribbble.com/"
+            href="https://www.linkedin.com/in/tulku18/"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/mrlhasang18"
             className="footer__social-link"
             target="_blank"
           >

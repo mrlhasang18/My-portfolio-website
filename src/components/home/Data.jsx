@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">AI & ML Enthusiast</h3>
       <p className="home__description">
-        I'm an aspiring AI and ML student developer based in Nepal, and I'm very passionate and
+        I'm an aspiring AI developer based in Nepal, and I'm very passionate and
         dedicated to my work.
       </p>
 
