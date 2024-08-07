@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 import "./components/header/darkMode.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -26,7 +27,7 @@ const App = () => {
         <Services/>
         <Qualification/>
         <Work />
-       
+       <Analytics/>
         <Contact />
       </main>
       <Footer />
